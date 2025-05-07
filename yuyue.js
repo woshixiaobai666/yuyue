@@ -1,1 +1,126 @@
-function _0x158b(_0x2995de,_0x55a787){const _0xfb562e=_0xfb56();return _0x158b=function(_0x158bbc,_0x1620f4){_0x158bbc=_0x158bbc-0x9e;let _0x1caa9c=_0xfb562e[_0x158bbc];return _0x1caa9c;},_0x158b(_0x2995de,_0x55a787);}function _0xfb56(){const _0x2280c6=['✅\x20已点击：按关键字查询','call','input','768dwICDe','请输入关键字查询网点','客户姓名','querySelectorAll','change','set','input.el-input__inner','compositionend','573594QoirLn','✅\x20已填写：','26616JvDIDF','.mybutton','证件号码','placeholder','span.keyWordQuery','dispatchEvent','querySelector','485111oDsxBg','187574OBFUEL','133MNoOID','1930GGoPSX','log','prototype','✅\x20所有填写操作完成，准备点击确认预约','compositionstart','手机号码','2007WAZdQF','.el-select-dropdown__item','确认预约','11784uTOBMw','5965824wwIlSJ','idCard','click','includes','✅\x20已勾选协议','textContent','myAutoFormConfig','✅\x20展开兑换时间下拉框','3265WxvBTp','phone','value','name','39ElcQft'];_0xfb56=function(){return _0x2280c6;};return _0xfb56();}(function(_0x2448a0,_0x318f64){const _0x50e909=_0x158b,_0x234a3c=_0x2448a0();while(!![]){try{const _0x1742ca=-parseInt(_0x50e909(0xa5))/0x1+parseInt(_0x50e909(0xaf))/0x2*(-parseInt(_0x50e909(0xc7))/0x3)+-parseInt(_0x50e909(0xbb))/0x4+-parseInt(_0x50e909(0xc3))/0x5*(-parseInt(_0x50e909(0xba))/0x6)+-parseInt(_0x50e909(0xb0))/0x7*(-parseInt(_0x50e909(0xa7))/0x8)+parseInt(_0x50e909(0xb7))/0x9*(parseInt(_0x50e909(0xb1))/0xa)+-parseInt(_0x50e909(0xae))/0xb*(-parseInt(_0x50e909(0xcb))/0xc);if(_0x1742ca===_0x318f64)break;else _0x234a3c['push'](_0x234a3c['shift']());}catch(_0x4ede24){_0x234a3c['push'](_0x234a3c['shift']());}}}(_0xfb56,0xe24cf),function waitForConfig(){const _0x2ec9cb=_0x158b;if(!window['myAutoFormConfig']){setTimeout(waitForConfig,0x64);return;}const _0x2fe7d2=window[_0x2ec9cb(0xc1)],_0x1b3dec=_0x2fe7d2[_0x2ec9cb(0xc6)],_0x1261ca=_0x2fe7d2[_0x2ec9cb(0xc4)],_0x4fe4d5=_0x2fe7d2[_0x2ec9cb(0xbc)],_0x24c635=_0x2fe7d2['branchKeyword'];function _0x79e887(_0x533da1,_0x188b3e){const _0x1de843=_0x2ec9cb,_0x2741b4=Object['getOwnPropertyDescriptor'](window['HTMLInputElement'][_0x1de843(0xb3)],_0x1de843(0xc5))[_0x1de843(0xa2)];_0x2741b4[_0x1de843(0xc9)](_0x533da1,_0x188b3e),_0x533da1[_0x1de843(0xac)](new Event(_0x1de843(0xb5),{'bubbles':!![]})),_0x533da1['dispatchEvent'](new Event(_0x1de843(0xca),{'bubbles':!![]})),_0x533da1[_0x1de843(0xac)](new Event(_0x1de843(0xa4),{'bubbles':!![]})),_0x533da1[_0x1de843(0xac)](new Event(_0x1de843(0xa1),{'bubbles':!![]}));}function _0x333333(_0x112a09,_0x15acb7,_0x23bff2){const _0x3c4e5e=setInterval(()=>{const _0x86aa5b=_0x158b,_0x498c0b=document[_0x86aa5b(0xa0)](_0x86aa5b(0xa3));for(const _0x4ec989 of _0x498c0b){if(_0x4ec989[_0x86aa5b(0xaa)][_0x86aa5b(0xbe)](_0x112a09)){_0x79e887(_0x4ec989,_0x15acb7),console[_0x86aa5b(0xb2)](_0x86aa5b(0xa6)+_0x112a09),clearInterval(_0x3c4e5e);if(_0x23bff2)_0x23bff2();break;}}},0x12c);}function _0x378d3d(_0xf02922){const _0x1baa42=setInterval(()=>{const _0x4c7d88=_0x158b,_0x5e1858=document[_0x4c7d88(0xad)](_0x4c7d88(0xab));if(_0x5e1858){_0x5e1858['click'](),console[_0x4c7d88(0xb2)](_0x4c7d88(0xc8)),clearInterval(_0x1baa42);if(_0xf02922)_0xf02922();}},0x12c);}function _0x42ef0c(){const _0x193465=setInterval(()=>{const _0x43ec2f=_0x158b,_0x59b6f9=document[_0x43ec2f(0xa0)]('input.el-input__inner');for(const _0x32e40c of _0x59b6f9){if(_0x32e40c[_0x43ec2f(0xaa)][_0x43ec2f(0xbe)](_0x43ec2f(0x9e))){_0x79e887(_0x32e40c,_0x24c635),console[_0x43ec2f(0xb2)]('✅\x20已填写网点关键词'),clearInterval(_0x193465);break;}}},0x12c);}function _0x2af134(_0x4ef742){const _0x585554=setInterval(()=>{const _0x18f077=_0x158b,_0x1d40c5=Array['from'](document['querySelectorAll'](_0x18f077(0xa3)))['find'](_0x41c809=>_0x41c809['placeholder']['includes']('请选择兑换时间'));if(_0x1d40c5){_0x1d40c5[_0x18f077(0xbd)](),console['log'](_0x18f077(0xc2)),clearInterval(_0x585554);const _0xd20d49=setInterval(()=>{const _0x5d3a86=_0x18f077,_0x26eaa6=document[_0x5d3a86(0xad)](_0x5d3a86(0xb8));if(_0x26eaa6){_0x26eaa6[_0x5d3a86(0xbd)](),console[_0x5d3a86(0xb2)]('✅\x20已选择最近兑换时间'),clearInterval(_0xd20d49);if(_0x4ef742)_0x4ef742();}},0x12c);}},0x12c);}function _0x4f30ec(_0x596238){const _0x22380c=setInterval(()=>{const _0x3507a6=_0x158b,_0x574118=document[_0x3507a6(0xad)]('.el-checkbox__inner');if(_0x574118){_0x574118['click'](),console[_0x3507a6(0xb2)](_0x3507a6(0xbf)),clearInterval(_0x22380c);if(_0x596238)_0x596238();}},0x12c);}function _0x46c3cb(){const _0x163af6=setInterval(()=>{const _0x31500b=_0x158b,_0x39a537=document[_0x31500b(0xad)](_0x31500b(0xa8));_0x39a537&&_0x39a537[_0x31500b(0xc0)]['includes'](_0x31500b(0xb9))&&(_0x39a537[_0x31500b(0xbd)](),console[_0x31500b(0xb2)]('✅\x20已点击确认预约按钮'),clearInterval(_0x163af6));},0x12c);}_0x333333(_0x2ec9cb(0x9f),_0x1b3dec),_0x333333(_0x2ec9cb(0xb6),_0x1261ca),_0x333333(_0x2ec9cb(0xa9),_0x4fe4d5,()=>{setTimeout(()=>{_0x378d3d(()=>{setTimeout(()=>{_0x42ef0c(),setTimeout(()=>{_0x2af134(()=>{setTimeout(()=>{_0x4f30ec(()=>{const _0x59cea2=_0x158b;console[_0x59cea2(0xb2)](_0x59cea2(0xb4)),setTimeout(()=>{_0x46c3cb();},0x3e8);});},0x1f4);});},0x5dc);},0x3e8);});},0x1f4);});}());
+// 暴露主函数
+window.startAutoForm = function(config) {
+    const myName = config.name;
+    const myPhone = config.phone;
+    const myIdCard = config.idCard;
+    const myBranchKeyword = config.branchKeyword;
+
+    function triggerVueInput(el, value) {
+        const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
+        setter.call(el, value);
+        el.dispatchEvent(new Event('compositionstart', { bubbles: true }));
+        el.dispatchEvent(new Event('input', { bubbles: true }));
+        el.dispatchEvent(new Event('compositionend', { bubbles: true }));
+        el.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+
+    function waitAndFill(placeholderText, value, callback) {
+        const timer = setInterval(() => {
+            const inputs = document.querySelectorAll('input.el-input__inner');
+            for (const input of inputs) {
+                if (input.placeholder.includes(placeholderText)) {
+                    triggerVueInput(input, value);
+                    console.log(`✅ 已填写：${placeholderText}`);
+                    clearInterval(timer);
+                    if (callback) callback();
+                    break;
+                }
+            }
+        }, 300);
+    }
+
+    function clickQueryButton(callback) {
+        const timer = setInterval(() => {
+            const btn = document.querySelector('span.keyWordQuery');
+            if (btn) {
+                btn.click();
+                console.log('✅ 已点击：按关键字查询');
+                clearInterval(timer);
+                if (callback) callback();
+            }
+        }, 300);
+    }
+
+    function fillBranchKeyword() {
+        const timer = setInterval(() => {
+            const inputs = document.querySelectorAll('input.el-input__inner');
+            for (const input of inputs) {
+                if (input.placeholder.includes('请输入关键字查询网点')) {
+                    triggerVueInput(input, myBranchKeyword);
+                    console.log('✅ 已填写网点关键词');
+                    clearInterval(timer);
+                    break;
+                }
+            }
+        }, 300);
+    }
+
+    function selectExchangeTime(callback) {
+        const inputTimer = setInterval(() => {
+            const timeInput = Array.from(document.querySelectorAll('input.el-input__inner')).find(el => el.placeholder.includes('请选择兑换时间'));
+            if (timeInput) {
+                timeInput.click();
+                console.log('✅ 展开兑换时间下拉框');
+                clearInterval(inputTimer);
+
+                const listTimer = setInterval(() => {
+                    const firstOption = document.querySelector('.el-select-dropdown__item');
+                    if (firstOption) {
+                        firstOption.click();
+                        console.log('✅ 已选择最近兑换时间');
+                        clearInterval(listTimer);
+                        if (callback) callback();
+                    }
+                }, 300);
+            }
+        }, 300);
+    }
+
+    function checkAgreement(callback) {
+        const timer = setInterval(() => {
+            const checkbox = document.querySelector('.el-checkbox__inner');
+            if (checkbox) {
+                checkbox.click();
+                console.log('✅ 已勾选协议');
+                clearInterval(timer);
+                if (callback) callback();
+            }
+        }, 300);
+    }
+
+    function clickConfirmReservation() {
+        const timer = setInterval(() => {
+            const btn = document.querySelector('.mybutton');
+            if (btn && btn.textContent.includes('确认预约')) {
+                btn.click();
+                console.log('✅ 已点击确认预约按钮');
+                clearInterval(timer);
+            }
+        }, 300);
+    }
+
+    // 主流程启动
+    waitAndFill('客户姓名', myName);
+    waitAndFill('手机号码', myPhone);
+    waitAndFill('证件号码', myIdCard, () => {
+        setTimeout(() => {
+            clickQueryButton(() => {
+                setTimeout(() => {
+                    fillBranchKeyword();
+                    setTimeout(() => {
+                        selectExchangeTime(() => {
+                            setTimeout(() => {
+                                checkAgreement(() => {
+                                    console.log('✅ 所有填写操作完成，准备点击确认预约');
+                                    setTimeout(() => {
+                                        clickConfirmReservation();
+                                    }, 1000);
+                                });
+                            }, 500);
+                        });
+                    }, 1500);
+                }, 1000);
+            });
+        }, 500);
+    });
+};
