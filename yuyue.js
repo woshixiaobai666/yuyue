@@ -1,16 +1,17 @@
-// 暴露主函数
-window.startAutoForm = function(config) {
-    const myName = config.name;
-    const myPhone = config.phone;
-    const myIdCard = config.idCard;
-    const myBranchKeyword = config.branchKeyword;
+(function () {
+    'use strict';
+
+    // 从全局获取用户配置
+    const config = window.ICBC_CONFIG || {};
+    const myName = config.myName || '';
+    const myPhone = config.myPhone || '';
+    const myIdCard = config.myIdCard || '';
+    const myBranchKeyword = config.myBranchKeyword || '';
 
     function triggerVueInput(el, value) {
         const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
         setter.call(el, value);
-        el.dispatchEvent(new Event('compositionstart', { bubbles: true }));
         el.dispatchEvent(new Event('input', { bubbles: true }));
-        el.dispatchEvent(new Event('compositionend', { bubbles: true }));
         el.dispatchEvent(new Event('change', { bubbles: true }));
     }
 
@@ -99,7 +100,7 @@ window.startAutoForm = function(config) {
         }, 300);
     }
 
-    // 主流程启动
+    // 主流程
     waitAndFill('客户姓名', myName);
     waitAndFill('手机号码', myPhone);
     waitAndFill('证件号码', myIdCard, () => {
@@ -107,6 +108,7 @@ window.startAutoForm = function(config) {
             clickQueryButton(() => {
                 setTimeout(() => {
                     fillBranchKeyword();
+
                     setTimeout(() => {
                         selectExchangeTime(() => {
                             setTimeout(() => {
@@ -123,4 +125,5 @@ window.startAutoForm = function(config) {
             });
         }, 500);
     });
-};
+
+})();
